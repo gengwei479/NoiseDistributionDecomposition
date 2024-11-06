@@ -223,7 +223,7 @@ def parse_args():
     parser.add_argument("--DD_episode_num", type = int, default = 50, help = "number of DD_episodes")#50
     parser.add_argument("--DD_epsilon", type = float, default = 0.001, help = "dist PDF loss threshold")
     parser.add_argument("--DD_use_expection_norm", type = bool, default = True)
-    parser.add_argument("--DD_expection_norm", type = float, default = 100)
+    parser.add_argument("--DD_expection_norm", type = float, default = 10)
     parser.add_argument("--DD_use_dist_norm", type = bool, default = True)
     parser.add_argument("--DD_dist_norm", type = float, default = 1)
     parser.add_argument("--DD_use_weight_norm", type = bool, default = True)
