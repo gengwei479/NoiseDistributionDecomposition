@@ -10,7 +10,7 @@ Note that this is a research project and by definition is unstable. Please write
 @article{geng2023noise,
 title={Noise Distribution Decomposition based Multi-Agent Distributional Reinforcement Learning},
 author={Geng, Wei and Xiao, Baidi and Li, Rongpeng and Wei, Ning and Wang, Dong and Zhao, Zhifeng},
-journal={arXiv preprint arXiv:2312.07025},
+journal={arXiv preprint arXiv:2312.07025, TMC.2024.3492272},
 year={2023}
 }
 ```
