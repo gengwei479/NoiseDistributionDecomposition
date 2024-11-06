@@ -42,10 +42,3 @@ def line_graphs_01(inputsX, inputsY, label, dir):
     plt.legend()
     # plt.show()
     pic_obj.savefig(dir)
-
-# inputsX = np.arange(0, 60000, 1000)
-# inputsY = {}
-# inputsY["aaaa"] = np.random.rand(len(inputsX))
-# inputsY["bbbb"] = np.random.rand(len(inputsX))
-# label = ["iteration", "average reward"]
-# line_graphs_00(inputsX, inputsY, label, 0)
