@@ -232,7 +232,7 @@ def parse_args():
     parser.add_argument("--DD_eta", type = float, default = 0, help = "parameters of risk tendency")
     
     # diffusion model
-    parser.add_argument("--DM_enable", type = bool, default = True)#False True
+    parser.add_argument("--DM_enable", type = bool, default = False)#False True
     parser.add_argument("--DM_agent_network_layer_dim", type = int, default = 128, help = "units number of dm-networks")
     parser.add_argument("--DM_diffusion_depth", type = int, default = 3, help = "diffusion times of dm-networks")
     parser.add_argument("--DM_learning_rate", type = float, default = 0.001, help = "learning rate of dm-networks")
