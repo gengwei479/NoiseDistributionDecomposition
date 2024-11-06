@@ -223,7 +223,7 @@ def parse_args():
     parser.add_argument("--DD_episode_num", type = int, default = 50, help = "number of DD_episodes")#50
     parser.add_argument("--DD_epsilon", type = float, default = 0.001, help = "dist PDF loss threshold")
     parser.add_argument("--DD_use_expection_norm", type = bool, default = True)
-    parser.add_argument("--DD_expection_norm", type = float, default = 100)
+    parser.add_argument("--DD_expection_norm", type = float, default = 10)
     parser.add_argument("--DD_use_dist_norm", type = bool, default = True)
     parser.add_argument("--DD_dist_norm", type = float, default = 1)
     parser.add_argument("--DD_use_weight_norm", type = bool, default = True)
@@ -232,7 +232,7 @@ def parse_args():
     parser.add_argument("--DD_eta", type = float, default = 0, help = "parameters of risk tendency")
     
     # diffusion model
-    parser.add_argument("--DM_enable", type = bool, default = True)#False True
+    parser.add_argument("--DM_enable", type = bool, default = False)#False True
     parser.add_argument("--DM_agent_network_layer_dim", type = int, default = 128, help = "units number of dm-networks")
     parser.add_argument("--DM_diffusion_depth", type = int, default = 3, help = "diffusion times of dm-networks")
     parser.add_argument("--DM_learning_rate", type = float, default = 0.001, help = "learning rate of dm-networks")
